@@ -11,15 +11,14 @@ int Resta (int a, int b){
 
     return a - b;
  }
- {
-
+ 
 int suma (int a, int b) {
     cout << "ingrese el primer numero" << endl;
     cin >> a;
     cout << "ingrese el segundo numero" << endl;
     cin >> b;
-    return a + b;
-
+    return a + b; 
+}
 
 int Multi (int a, int b){
     cout << "Ingresa el primer numero a multiplicar: ";
@@ -27,25 +26,17 @@ int Multi (int a, int b){
     
     cout << "Ingresa el segundo numero a multiplicar: ";
     cin >> b;
+    return a * b;
 }
     
-    return a * b;
-
 int divi (int a, int b){
     cout << "Ingresa el primer numero a dividir: ";
     cin >> a;
 
     cout << "Ingresa el segundo numero a dividir: ";
     cin >> b;
-    return a / b;
+    return a / b; 
 }
-
-
-
-
-
-
-
 
 int main() {
     cout << "la suma es: " << suma << endl;
@@ -54,6 +45,5 @@ int main() {
     cout << "la division es: " << divi<< endl;
 
     return 0;
-    
 }
 
