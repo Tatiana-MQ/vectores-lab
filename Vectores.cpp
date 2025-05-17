@@ -1,5 +1,7 @@
+#include <iostream>
+using namespace std;
 
-suma (int a, int b) {
+int suma (int a, int b) {
     return a + b;
     cout << "ingrese el primer numero" << endl;
     cin >> a;
