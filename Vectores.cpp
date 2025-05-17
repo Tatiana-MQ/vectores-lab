@@ -10,4 +10,11 @@ int Resta (int a, int b){
     cin >> b;
 
     return a - b;
+ }
+  
+int main() {
+    
+
+    return 0;
+    
 }
