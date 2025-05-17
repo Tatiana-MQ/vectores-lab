@@ -2,6 +2,15 @@
 #include <string>
 using namespace std;
 
+int Multi (int a, int b){
+    cout << "Ingresa el primer numero a multiplicar: ";
+    cin >> a;
+    
+    cout << "Ingresa el segundo numero a multiplicar: ";
+    cin >> b;
+    
+    return a * b;
+  
 int divi (int a, int b){
     cout << "Ingresa el primer numero a dividir: ";
     cin >> a;
